@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: extVidV2 
+    plan: pro
+    env: docker
+    dockerfilePath: Dockerfile
+    repo: https://github.com/chutpagludotnet/extVid
+    branch: main
+    autoDeploy: false
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      #- key: WEBHOOK
+        #sync: false
+      - key: PORT
+        value: 8000  # Default port value, update if needed
