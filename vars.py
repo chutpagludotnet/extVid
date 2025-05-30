@@ -9,4 +9,4 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "7743531642:AAFDA98403q83BhYmc7-E5c_qK7IkT4
 OWNER = int(environ.get("OWNER", "7527795504"))
 CREDIT = "★彡[ᴍᴇᴅᴜꜱᴀxᴅ]彡★"
 #WEBHOOK = True  # Don't change this
-#PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+PORT = int(os.environ.get("PORT", 8000))  # Default to 8000 if not set
